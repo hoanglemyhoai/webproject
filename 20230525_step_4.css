@@ -1,0 +1,39 @@
+/* .mother {
+    width: 400px;
+    height: 200px;
+    border: 3px solid black;
+    position: relative;
+}
+
+.child {
+    width: 200px;
+    height: 100px;
+    border: 3px solid black;
+    position: absolute;
+} */
+
+.mother {
+    display: flex;
+    justify-content: space-around;
+}
+
+#con1 {
+    width: 200px;
+    height: 100px;
+    border: 3px solid green;
+    background-color: rgb(113, 224, 159);
+}
+
+#con2 {
+    width: 200px;
+    height: 100px;
+    border: 3px solid yellow;
+    background-color: rgb(250, 255, 149);
+}
+
+#con3 {
+    width: 200px;
+    height: 100px;
+    border: 3px solid red;
+    background-color: rgb(255, 112, 112);
+}
